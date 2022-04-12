@@ -1,6 +1,6 @@
 <section class="login">
   <div class="login-icon">
-    <i class="fas fa-user-check"></i>
+    <fa-icon [icon]="loginIcon"></fa-icon>
   </div>
   <article class="login-form">
     <form [formGroup]="form" (ngSubmit)="login()">
@@ -61,7 +61,7 @@
   <div class="login-signup">
     <p>
       Dont have an account?
-      <a class="login-signup-link" routerLink="/user/register">Sign up</a>.
+      <a class="login-signup-link" routerLink="/user/register">Sign up.</a>
     </p>
   </div>
 </section>
